@@ -1,0 +1,52 @@
+{
+    "homepage": "https://timgizz.github.io/City-secrets_React",
+    "name": "city-secrets",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "format": "prettier --write .",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint:fix": "eslint . --fix",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "^5.64.2",
+        "@tanstack/react-query-devtools": "^5.64.1",
+        "axios": "^1.7.9",
+        "pre-commit": "^1.2.2",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^7.1.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.18.0",
+        "@types/react": "^18.3.18",
+        "@types/react-dom": "^18.3.5",
+        "@vitejs/plugin-react": "^4.3.4",
+        "eslint": "^9.18.0",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "eslint-plugin-react": "^7.37.4",
+        "eslint-plugin-react-hooks": "^5.0.0",
+        "eslint-plugin-react-refresh": "^0.4.16",
+        "gh-pages": "^6.3.0",
+        "globals": "^15.14.0",
+        "prettier": "^3.4.2",
+        "sass": "^1.83.1",
+        "vite": "^6.0.5"
+    },
+    "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+    "main": "eslint.config.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
