@@ -55,7 +55,7 @@ const Index = () => {
                             Посети достопремичательности Санкт-Петербурга <br />
                             сейчас
                         </div>
-                        <NavLink to="attractions/">
+                        <NavLink to="City-secrets_React/attractions/">
                             <a
                                 href="https://timgizz.github.io/City-secrets/attractions.html"
                                 className="one__link">
@@ -208,7 +208,7 @@ const Index = () => {
                     </div>
                 </div>
                 <div className="fhree__link">
-                    <NavLink to="attractions/">
+                    <NavLink to="City-secrets_React/attractions/">
                         <a
                             className="fhree__pereiti"
                             href="https://timgizz.github.io/City-secrets/attractions.html">

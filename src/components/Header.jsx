@@ -16,7 +16,7 @@ const Header = () => {
             <section className="header">
                 <div className="container">
                     <div className="header__main">
-                        <NavLink to="/">
+                        <NavLink to="City-secrets_React/">
                             <img src={пс2} alt="logo" />
                         </NavLink>
                         <div className="header__links">
@@ -30,12 +30,12 @@ const Header = () => {
                                     alt="menu"
                                 />
                             </button>
-                            <NavLink to="attractions/">
+                            <NavLink to="City-secrets_React/attractions/">
                                 <p className="header__link">
                                     Достопримечательности
                                 </p>
                             </NavLink>
-                            <NavLink to="contacts/">
+                            <NavLink to="City-secrets_React/contacts/">
                                 <p className="header__link">Контакты</p>
                             </NavLink>
                         </div>
@@ -45,14 +45,14 @@ const Header = () => {
             <section className="menu" id="menu">
                 <div className="container">
                     <div className="menu__plank">
-                        <NavLink to="attractions/">
+                        <NavLink to="City-secrets_React/attractions/">
                             <div className="menu__link">
                                 <p className="menu__links">
                                     Достопримечательности
                                 </p>
                             </div>
                         </NavLink>
-                        <NavLink to="contacts/">
+                        <NavLink to="City-secrets_React/contacts/">
                             <p className="menu__links">Контакты</p>
                         </NavLink>
                     </div>

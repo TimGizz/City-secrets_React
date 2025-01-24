@@ -24,11 +24,11 @@ function App() {
                 <main>
                     <Routes>
                         {/* <Route path="attractions/" element={<Filters />} /> */}
-                        <Route path="/" element={<Index />} />
-                        <Route path="attractions/" element={<Attractions />} />
-                        <Route path="contacts/" element={<Contacts />} />
+                        <Route path="City-secrets_React/" element={<Index />} />
+                        <Route path="City-secrets_React/attractions/" element={<Attractions />} />
+                        <Route path="City-secrets_React/contacts/" element={<Contacts />} />
                         <Route
-                            path="/attractions/:id"
+                            path="City-secrets_React/attractions/:id"
                             element={<Attraction />}
                         />
                     </Routes>

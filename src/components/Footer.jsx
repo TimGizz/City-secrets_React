@@ -8,15 +8,15 @@ const Footer = () => {
         <section className="footer">
             <div className="container">
                 <div className="footer__logo">
-                    <NavLink to="/">
+                    <NavLink to="City-secrets_React/">
                         <img src={пс2} alt="logo" />
                     </NavLink>
                 </div>
                 <div className="footer__links">
-                    <NavLink to="contacts/">
+                    <NavLink to="City-secrets_React/contacts/">
                         <p className="footer__link">Контакты</p>
                     </NavLink>
-                    <NavLink to="attractions/">
+                    <NavLink to="City-secrets_React/attractions/">
                         <p className="footer__link">Достопримечательности</p>
                     </NavLink>
                 </div>
